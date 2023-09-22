@@ -42,3 +42,22 @@ a img {
   gap: 20px;
 }
 
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 70%;
+  height: 40px;
+  background-color: #2e2e2e;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  border-radius: 10px;
+  color: white;
+}
