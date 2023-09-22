@@ -1,6 +1,6 @@
 
 const Word = ({ title , description }) => {
-    console.log(title ,':', description)
+    
     return (
         <details>
             <summary>{title}</summary>
