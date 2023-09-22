@@ -8,7 +8,6 @@ export default function App() {
       <Navigator />
       <Spline scene="https://prod.spline.design/afLgcY2ojZpUhD5C/scene.splinecode" />
       <Search />
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur explicabo, a nihil recusandae aut eaque voluptatibus. Natus asperiores amet exercitationem vitae, ducimus repellat deleniti sapiente mollitia! Molestias dolor minus explicabo.</p>
     </>
   );
 }

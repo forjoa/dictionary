@@ -60,4 +60,24 @@ main {
   font-family: 'Bricolage Grotesque', sans-serif;
   border-radius: 10px;
   color: white;
+  font-size: 16px;
+}
+
+section {
+  width: 70%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  gap: 20px;
+}
+
+details {
+  background-color: #373737;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+details p {
+  color: rgb(179, 179, 179);
 }
