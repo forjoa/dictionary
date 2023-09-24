@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer>
             <span>¡Danos una estrella en GitHub!⭐</span>
-            <span>This website was made by Joaquin Trujillo</span>
+            <span>Este sitio fue hecho por Joaquin Trujillo</span>
             <Avatar isBordered color="primary" src={me} className="mt-2"/>
         </footer>
     )
