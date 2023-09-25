@@ -42,7 +42,7 @@ const Search = () => {
                 <section>
                     <Accordion variant="splitted">
                         {wordsSearched.map((ws, index) => (
-                            <AccordionItem key={index} title={ws.word} className="!bg-gray-700 bg-opacity-40 !text-white">
+                            <AccordionItem key={index} title={ws.word} >
                                 <p className='text-black w-full'>{ws.description}</p>
                             </AccordionItem>
                         ))}
