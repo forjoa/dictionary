@@ -71,6 +71,18 @@ section {
   gap: 20px;
 }
 
+details {
+  background-color: #373737;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+details p {
+  margin-top: 10px;
+}
+
 footer {
   display: flex;
   justify-content: center;

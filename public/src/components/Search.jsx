@@ -3,8 +3,6 @@ import Words from './Words.jsx'
 import Word from './Word.jsx'
 import { words } from '../constants/words.js'
 
-import { Accordion, AccordionItem } from '@nextui-org/react'
-
 // normalize text 
 const normalizeText = (text) => {
     return text
@@ -40,13 +38,9 @@ const Search = () => {
             {!search && <Words />}
             {search && (
                 <section>
-                    <Accordion variant="splitted">
-                        {wordsSearched.map((ws, index) => (
-                            <AccordionItem key={index} title={ws.word} >
-                                <p className='text-black w-full'>{ws.description}</p>
-                            </AccordionItem>
-                        ))}
-                    </Accordion>
+                    {wordsSearched.map((ws, index) => (
+                        <Word key={index} title={ws.word} description={ws.description} />
+                    ))}
                 </section>
             )}
         </>
