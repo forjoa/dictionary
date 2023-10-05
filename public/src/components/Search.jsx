@@ -33,6 +33,7 @@ const Search = () => {
                     className="search"
                     value={search}
                     onChange={handleChange}
+                    spellCheck="false"
                 />
             </main>
             {!search && <Words />}
