@@ -5,9 +5,9 @@ const Words = () => {
 
     return (
         <section>
-                {words.map((ws, index) => (
-                    <Word key={index} title={ws.word} description={ws.description} />
-                ))}
+            {words.slice(0, 10).map((ws, index) => (
+                <Word key={index} title={ws.word} description={ws.description} />
+            ))}
         </section>
     )
 }
