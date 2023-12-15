@@ -8,7 +8,7 @@ const Word = ({ title, description }) => {
     }
 
     return (
-        <details className={`${isOpen ? 'open' : ''}`} onClick={toggleDetails}>
+        <details className={`${isOpen ? 'open' : ''}`} onClick={toggleDetails} name='faq'>
             <summary>{title}</summary>
             <p>{description}</p>
         </details>
