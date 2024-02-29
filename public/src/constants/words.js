@@ -299,6 +299,106 @@ export const words = [
     description:
       'TLS (Transport Layer Security) es el sucesor de SSL y proporciona una capa segura sobre la conexión entre un cliente y un servidor. Al igual que SSL, se utiliza para garantizar la seguridad de la información transmitida.',
   },
+    {
+    word: 'Transacción',
+    description: 'En el contexto de bases de datos, una transacción es una secuencia de una o varias operaciones que se ejecutan como una única unidad, de manera que o bien todas se completan con éxito o ninguna se realiza.',
+  },
+  {
+    word: 'Sesión asociado a un identificador único',
+    description: 'Una sesión es un período de interacción entre un usuario y un sistema de computadoras que se mantiene durante cierto tiempo. Asociado a un identificador único significa que cada sesión está vinculada a un identificador único para identificar de manera única a cada usuario.',
+  },
+  {
+    word: 'Logs',
+    description: 'Los logs, o registros, son archivos que registran eventos, acciones o datos específicos en un sistema. Estos registros son útiles para el diagnóstico de problemas, seguimiento de actividades y auditoría.',
+  },
+  {
+    word: 'Wildfly',
+    description: 'Wildfly es un servidor de aplicaciones Java de código abierto y un proyecto de la comunidad JBoss. Proporciona un entorno para ejecutar aplicaciones Java EE (Enterprise Edition) y otras tecnologías relacionadas.',
+  },
+  {
+    word: 'Glassfish',
+    description: 'Glassfish es un servidor de aplicaciones de código abierto desarrollado por la comunidad de GlassFish, liderado por Oracle. Es compatible con las tecnologías Java EE y se utiliza para implementar aplicaciones empresariales.',
+  },
+  {
+    word: 'Tomcat',
+    description: 'Apache Tomcat es un contenedor de servlets y servidor web HTTP de código abierto. Implementa las especificaciones de Java Servlet y JavaServer Pages (JSP) y proporciona un entorno para ejecutar aplicaciones web Java.',
+  },
+  {
+    word: 'Jass',
+    description: 'JASS (Just Another Scripting Syntax) es un lenguaje de programación de scripting utilizado en el motor de juego Warcraft III. Se utiliza para escribir scripts que controlan el comportamiento de unidades y sistemas en el juego.',
+  },
+  {
+    word: 'Server.xml',
+    description: 'server.xml es un archivo de configuración en servidores web como Apache Tomcat. Contiene configuraciones importantes relacionadas con el servidor, como puertos, conectores y otras opciones de configuración.',
+  },
+  {
+    word: 'Web.xml',
+    description: 'web.xml es un archivo de configuración en aplicaciones web Java que utiliza tecnologías como Java Servlet y JavaServer Pages (JSP). Contiene configuraciones relacionadas con la aplicación, como servlets, filtros y mapeos de URL.',
+  },
+  {
+    word: 'Work',
+    description: 'En el contexto de servidores web, el directorio "work" puede referirse a un directorio utilizado para almacenar archivos temporales y resultados de compilación durante la ejecución de aplicaciones web.',
+  },
+  {
+    word: 'Webapps',
+    description: 'El directorio "webapps" es comúnmente utilizado en servidores web para almacenar aplicaciones web. En este directorio, se colocan las aplicaciones web que el servidor puede desplegar y ejecutar.',
+  },
+  {
+    word: 'Temp',
+    description: 'El directorio "temp" generalmente se refiere a una carpeta temporal utilizada para almacenar archivos temporales. Puede ser utilizado por aplicaciones para almacenar datos temporales durante su ejecución.',
+  },
+  {
+    word: 'Libs',
+    description: 'El directorio "libs" se utiliza comúnmente para almacenar bibliotecas (librerías) o JAR (Java Archive) necesarios para el funcionamiento de una aplicación Java.',
+  },
+  {
+    word: 'Jar',
+    description: 'Un archivo JAR (Java Archive) es un formato de archivo que permite empaquetar múltiples archivos Java en un solo archivo. Se utiliza para distribuir y almacenar bibliotecas, componentes y aplicaciones Java.',
+  },
+  {
+    word: 'War',
+    description: 'Un archivo WAR (Web Application Archive) es un formato de archivo utilizado para distribuir y desplegar aplicaciones web Java. Contiene todos los archivos necesarios para ejecutar la aplicación web.',
+  },
+  {
+    word: 'Optimizar',
+    description: 'Optimizar se refiere al proceso de mejorar el rendimiento, eficiencia o funcionalidad de un sistema, aplicación o código para lograr un mejor resultado en términos de velocidad, uso de recursos o calidad.',
+  },
+  {
+    word: 'Refactorizar',
+    description: 'Refactorizar es el proceso de reestructurar y mejorar el código fuente de un software sin cambiar su comportamiento externo. El objetivo es mejorar la legibilidad, mantenibilidad y eficiencia del código.',
+  },
+  {
+    word: 'Dns',
+    description: 'DNS (Domain Name System) es un sistema de nomenclatura jerárquico utilizado para traducir nombres de dominio legibles por humanos en direcciones IP numéricas que son utilizadas por los equipos en Internet.',
+  },
+  {
+    word: 'Ldap',
+    description: 'LDAP (Lightweight Directory Access Protocol) es un protocolo estándar utilizado para acceder y mantener servicios de directorio de información de manera distribuida sobre una red TCP/IP.',
+  },
+  {
+    word: 'Ip',
+    description: 'IP (Internet Protocol) es un protocolo de comunicación que se utiliza para la transmisión de datos en redes de computadoras. Es responsable de la asignación de direcciones y el enrutamiento de los paquetes de datos.',
+  },
+  {
+    word: 'Dominio',
+    description: 'En el contexto de Internet, un dominio es una identificación asociada a una dirección IP que se utiliza para localizar y acceder a recursos en la red. Puede representar un sitio web, servidor de correo, u otros servicios.',
+  },
+  {
+    word: 'FTP',
+    description: 'FTP (File Transfer Protocol) es un protocolo estándar de red utilizado para la transferencia de archivos entre un cliente y un servidor en una red TCP/IP. Permite subir y bajar archivos de y hacia un servidor.',
+  },
+  {
+    word: 'Hosting',
+    description: 'El hosting se refiere al servicio que proporciona espacio en servidores web para alojar sitios web o aplicaciones. Los proveedores de hosting ofrecen servicios de almacenamiento, ancho de banda y otros recursos necesarios.',
+  },
+  {
+    word: 'Comandos con exclamación y sin',
+    description: 'En sistemas basados en UNIX y Linux, los comandos con exclamación (!) y sin ella tienen significados diferentes. El comando con exclamación se utiliza en el historial de comandos para repetir o editar comandos anteriores, mientras que el comando sin exclamación realiza la ejecución normal de un comando.',
+  },
+  {
+    word: 'FileZilla',
+    description: 'FileZilla es un cliente de código abierto para FTP, FTPS, y SFTP. Permite la transferencia de archivos entre un cliente y un servidor. "filiZilla" parece ser un error tipográfico, probablemente se refiere a "FileZilla".',
+  },
 ]
 
 // order words
